@@ -56,7 +56,7 @@ This data provides information into amount of money startups received from 2018 
 ### 3.1. Data Collection
 The datasets for the analysis were retrieved from from different sources. The 2020 and 2021 datasets were retrieved from a remote database while, the 2018 and 2019 datasets in CSV file format were retrieved from a GtHub repository and OneDrive respectively. Eventually, merging these datasets would be essential at a point to consolidate the information for comprehensive analysis
 
-### 3.2. Exploratory Data Analysis
+### 3.2. Data Exploration
 The datasets were examined and explored to better understand the datasets and identify issues present. Also, the data quality was verified to understand how clean or dirty the datasets are.
 
 ### 3.3. Issues with the Data
