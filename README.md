@@ -8,9 +8,10 @@
    - 2.2. [Analytical Questions](#22-analytical-questions)<br>
 3. [Data Understanding](#3-data-understanding)
    - 3.1. [Data Collection](#31-data-collection)
-   - 3.2. [Exploratory Data Analysis](#32-exploratory-data-analysis)
+   - 3.2. [Data Exploratoration](#32-data-exploration)
    - 3.3. [Issues with the Data](#33-issues-with-the-data)
-   - 3.4. [Handling Identified Issues](#33-handling-identified-issues)
+   - 3.4. [Handling Identified Issues](#34-handling-identified-issues)
+4. [Data Preparation](#4-data-preparation)
 
 
 # 1. Description
@@ -58,20 +59,31 @@ The datasets for the analysis were retrieved from from different sources. The 20
 
 ### 3.2. Data Exploration
 The datasets were examined and explored to better understand the datasets and identify issues present. Also, the data quality was verified to understand how clean or dirty the datasets are.
+**Steps**:<br>
+- The four datasets were explored individually
+- The four datasets were concatenated and cleaned as a single DataFrame
 
 ### 3.3. Issues with the Data
+- Duplicated rows
 - Missing values
 - Amount and Founded columns not in the right data types
-- Duplicated rows
+- Inconsistent column names
 - Some values not in their respective columns
 
-### 3.3. Handling Identified Issues
+### 3.4. Handling Identified Issues
+- Drop duplicates
+- Add year of funding column to the individual dataset
 - Filled missing values with percentage not more than 35%
-    1. Numerical columns were filled with the median value of that column
-    2. Categorical columns were filled with the most frequent values of that column
-- Amount and Founded columns were converted to the right data types
-- Duplicated rows were dropped based on the funding stage of startups
-- Values not in their respective columns were put back in their respective columns.
+    1. fill numerical columns with the median value of that column
+    2. fill categorical columns with the most frequent values of that column
+- Convert Amount and Founded columns to the right data types
+- Rename columns to standardise them
+- Put back data entries in their appropriate columns
+
+# 4. Data Preparation
+The data cleaning process, included handling missing values, removing duplicates, filling missing values, correcting data types, standardisation of column names, and putting values in their appropriate columns.
+These were carried out column by column to ensure data is thoroughly cleaned and ready for analysis.
+
 
 
 
