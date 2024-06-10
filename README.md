@@ -37,10 +37,10 @@ This project is licensed under the MIT license. Copyright (c) 2024 Emmanuel Dads
 See the LICENSE file for details.
 
 # Power BI Deployment
-
+[Power BI Link](https://app.powerbi.com/links/wQj222ShSz?ctid=4487b52f-f118-4830-b49d-3c298cb71075&pbi_source=linkShare)
 
 # Published Article
-
+[Publish Article](https://medium.com/@emmanueldadson36/exploring-opportunities-in-the-indian-startup-ecosystem-fbeb50efaf06)
 
 # Additional Information
 Contact:<br>
